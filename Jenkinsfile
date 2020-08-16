@@ -3,8 +3,8 @@ node
  
  def mavenHome = tool name: "maven-3.6.3"
  
- properties([[$class: 'JiraProjectProperty'], buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
- 
+  /* properties([[$class: 'JiraProjectProperty'], buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
+*/ 
  stage('CheckoutCode')
  {
  git url: 'https://github.com/vivekmprac/Maven-Tomcat-Sonar-Nexus.git'
