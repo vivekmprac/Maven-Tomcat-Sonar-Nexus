@@ -7,7 +7,7 @@ node
  
  stage('CheckoutCode')
  {
- git url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+ git url: 'https://github.com/vivekmprac/Maven-Tomcat-Sonar-Nexus.git'
  }
  
  stage('Build')
