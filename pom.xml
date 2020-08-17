@@ -37,13 +37,13 @@
 	<repository>
 		<id>nexus</id>
 		<name>releaseRepo</name>
-		<url>http://3.23.89.216:8081/nexus/content/repositories/releases/</url>
+		<url>http://3.128.155.152:8081/nexus/content/repositories/releases/</url>
 	</repository>
 	
 	<snapshotRepository>
 		<id>nexus</id>
 		<name>snapshotRepo</name>
-		<url>http://3.23.89.216:8081/nexus/content/repositories/snapshotRepo/</url>
+		<url>http://3.128.155.152:8081/nexus/content/repositories/snapshotRepo/</url>
 	</snapshotRepository>
 	
   </distributionManagement>
@@ -58,7 +58,7 @@
 		 <artifactId>tomcat7-maven-plugin</artifactId>
 		 <version>2.0</version>
 		 <configuration>
-		  <url>http://18.223.180.62:9090/manager/text</url>
+		  <url>http://18.216.193.32:9090/manager/text</url>
 		  <server>tomcatServer</server>
 		  <path>/java-webapp-vivek</path>
 		 </configuration>
