@@ -58,8 +58,8 @@
 		 <artifactId>tomcat7-maven-plugin</artifactId>
 		 <version>2.0</version>
 		 <configuration>
-		  <url>http://18.188.52.251:9090/manager/text</url>
-		  <server>tomcatServer</server>
+		  <url>http://192.168.43.112:9090/manager/text</url>
+		  <server>tomcat</server>
 		  <path>/java-webapp-vivek</path>
 		 </configuration>
 		</plugin>
